@@ -17,7 +17,7 @@ const Thumbnail = ({
     title: string;
 }) => {
     const [imageIndex, setImageIndex] = useState(0);
-    const image = [file_code, "https://iili.io/J5ahFSa.png"];
+    const image = ["https://img-place.com/${file_code}_t.jpg", "https://iili.io/J5ahFSa.png"];
 
     const handleImageError = () => {
         if (imageIndex === image.length - 1) return;
