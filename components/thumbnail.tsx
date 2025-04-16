@@ -10,14 +10,14 @@ const ImageLoader = ({ src, width, quality }: any) => {
 };
 
 const Thumbnail = ({
-    thumbnail,
+    file_code,
     title,
 }: {
-    thumbnail: string;
+    file_code: string;
     title: string;
 }) => {
     const [imageIndex, setImageIndex] = useState(0);
-    const image = [thumbnail, "https://iili.io/J5ahFSa.png"];
+    const image = [file_code, "https://iili.io/J5ahFSa.png"];
 
     const handleImageError = () => {
         if (imageIndex === image.length - 1) return;
