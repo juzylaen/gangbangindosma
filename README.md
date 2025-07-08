@@ -1,2 +1,2 @@
-# gangbangindosma
-gangbangindosma
+
+[gangbangindosma](https://gangbangindosma.pages.dev)
